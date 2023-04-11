@@ -311,7 +311,7 @@ footer span.red
 .testimonial .description 
 {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 0.1px;
     line-height: 160%;
 	letter-spacing: 0.2px;
@@ -350,13 +350,12 @@ footer span.red
 }
 .owl-theme .owl-controls .owl-page span
 {
-    width: 22px;
-    height: 22px;
+    width: 20x;
+    height: 20x;
     border-radius: 50%;
     background: url(../img/rahul.png) no-repeat;
     background-size: cover;
     transition: all 0 ease-in 0;
-	margin-bottom: 2px;
 }
 .owl-theme .owl-controls .owl-page:nth-child(2) span
 {
@@ -380,19 +379,23 @@ span
 }
 .owl-theme .owl-controls .owl-page span 
 {
-    margin: 20px 18px;
+    margin: 12px 8px;
 }
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls .owl-page.active:hover span
 {
     opacity: 1;
-    width: 40px;
-    height: 40px;
     border: 1px solid #ffffff;
 }
-.owl-theme .owl-controls .owl-page.active
+img.review-dp
 {
-    margin-bottom: -8px !important;
+	height: 34px;
+	width: 34px;
+	display: block;
+	margin: 1rem auto !important;
+	border-radius: 200px;
+	margin: 8px;
+	border: 2px solid #ffffff;
 }
 .quote-span
 {
@@ -401,9 +404,8 @@ span
 }
 .quote
 {
-	font-size: 20px;
+	font-size: 12px;
 	font-weight: bold;
-	font-family: sans-serif;
 }
 .author
 {
