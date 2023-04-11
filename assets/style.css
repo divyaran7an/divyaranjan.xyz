@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+html
+{
+  box-sizing: border-box;
+  font-size: 16px;
+}
+*,
+*::before,
+*::after 
+{
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+html,
+body
+{
+	font-family: 'Karla', sans-serif;
+	line-height: 160%;
+	font-weight: normal;
+	background: #151618;
+	color: #ffffff;
+}
+.navbar-nav .nav-link
+{
+	color: #ffffff;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+#main-content
+{
+	background: #1A1B1D;
+	padding: 100px;
+	margin: 24px;
+	border-radius: 20px;
+	color: #ffffff;
+	font-size: 15px;
+	line-height: 180%;
+}
+h1.hero-text
+{
+	font-family: 'Spectral', serif;
+	font-size: 45px;
+	line-height: 140%;
+	letter-spacing: 0;
+	font-weight: 700;
+}
+.highlight
+{
+	color: #F7E695;
+	font-weight: 800;
+}
+span.or-text
+{
+	display: inline-block;
+	font-style: italic;
+	padding: 0 12px;
+	line-height: 150%;
+}
+.greetings
+{
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #ADADAD;
+	letter-spacing: 0.6px;
+	font-weight: 500;
+}
+.bg
+{
+	border: 1px solid red;
+}
+.middle-align-content
+{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.main-image
+{
+	text-align: right;
+}
+.box-content
+{
+	padding-right: 5rem;
+	height: 100%;
+
+}
+.past-clients
+{
+	padding: 5rem auto !important;
+}
+.past-clients img
+{
+	opacity: 0.3;
+}
+.past-clients img:hover
+{
+	opacity: 1; 
+	-moz-transition: all 0.8s ease-in;
+	-o-transition: all 0.8s ease-in;
+	-webkit-transition: all 0.8s ease-in;
+	-ms-transition: all 0.8s ease-in;
+	transition: all 0.8s ease-in;
+}
+.pull-right
+{
+	text-align: right;
+}
+.quote-container
+{
+	background: #191A1C;
+	padding: 4rem;
+	margin: 2rem 0;
+}
+.quote-container span.quote
+{
+	font-size: 2rem;
+	color: #ffffff;
+	font-family: 'Spectral', serif;
+	letter-spacing: 0.6;
+	font-weight: 300;
+	line-height: 160%;
+}
+.btn.btn-main
+{
+    background: #F7E695;
+    color: #151618;
+    border-radius: 200px;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 1rem 3rem;
+}
+.btn-main.btn-bordered
+{
+	background: none;
+	color: #F7E59A;
+	border: 1px solid #F7E59A;
+}
+h2.title
+{
+	text-align: center;
+	font-family: 'Spectral', serif;
+	letter-spacing: 0.6;
+	font-weight: 700;
+	line-height: 160%;
+	font-size: 2rem;
+}
+.testimonials-box h2.title
+{
+	color: #151618;
+	font-size: 40px;
+	line-height: 140%;
+	padding: 2rem 0;
+}
+h2.title .yellow-block
+{
+	display: block;
+	color: #F7E695;
+}
+h3.sub-title
+{
+	text-align: center;
+}
+.offering-box
+{
+	text-align: center;
+	padding: auto 2rem;
+	width: 75%;
+	margin: 0 auto;
+}
+.offering-box h1.title
+{
+	font-size: 24px;
+	color: #ffffff;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+.offering-box p
+{
+	font-size: 15px;
+}
+a.about-more
+{
+	color: #f6e58d;
+	font-weight: bold;
+	font-family: Karla;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.box-value
+{
+	background: #151618;
+	text-align: center;
+	color: #ffffff;
+	padding: 5rem 1rem;
+	margin: 0 5rem;
+	border-radius: 24px;
+}
+.box-value h1.title
+{
+	font-family: 'Spectral', serif;
+	font-size: 2rem;
+	line-height: 130%;
+	letter-spacing: 0;
+}
+.or-option
+{
+	display: inline-block;
+	padding-left: 12px;
+	padding-right: 12px;
+	font-style: italic;
+	letter-spacing: 1px;
+}
+.icon
+{
+	padding: 16px;
+    width: 60px;
+    display: block;
+    margin: 1rem auto;
+    background: #263132;
+    border-radius: 24px;
+}
+.icon img
+{
+	height: 24px;
+}
+#about-content
+{
+	padding: 60px 200px;
+}
+#about-content h2.title
+{
+	text-align: center;
+	font-family: 'Spectral', serif;
+	font-size: 33.33px;
+	line-height: 120%;
+}
+#about-content .card-mission
+{
+	background: linear-gradient(155.94deg, rgba(255, 255, 255, 0.06) 0%, rgba(21, 22, 24, 0) 86.4%);
+	border-radius: 24px;
+	height: 100%;
+	padding: 2.5rem;
+	color: #ADADAD;
+	font-size: 14px;
+	letter-spacing: 0.4px;
+}
+#about-content .card-mission h3.mission
+{
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+#about-content .about-me
+{
+	/*	#mobile too*/
+	padding-left: 60px;
+	font-size: 14px;
+	font-weight: 400;
+}
+#get-in-touch.container
+{
+	text-align: center;
+	background: #1A1B1D;
+	width: 80%;
+	display: block;
+	border-radius: 22px;
+	margin: 100px auto;
+	padding: 4rem 3rem;
+}
+#get-in-touch.container p
+{
+	color: #ADADAD;
+}
+footer
+{
+	text-align: center;
+	padding: 3rem;
+	font-family: 'Spectral', serif;
+}
+footer .b
+{
+	font-weight: bold;
+}
+footer span.red
+{
+	color: #FF3939;
+}
+.reviews
+{ 
+	display: block;
+	margin: auto;
+}
+.review-data
+{
+	width: 70%;
+    margin: auto;
+}
+#testimonial-slider
+{
+    text-align: center;
+}
+.testimonial
+{
+	width: 50%;
+	display: block;
+	margin: auto;
+}
+.testimonial .description 
+{
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.1px;
+    line-height: 160%;
+	letter-spacing: 0.2px;
+	opacity: 0.8;
+}
+.testimonial h3.title
+{
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 4px;
+}
+.user-image-dp
+{
+	display: inline-block;
+}
+.testimonial .position
+{
+    font-size: 12px;
+    font-weight: bold;
+	text-align: center;
+}
+.testimonial span.at
+{
+	color: #848485;
+	font-weight: normal;
+}
+.owl-buttons{
+    display: none;
+}
+.owl-theme .owl-controls .owl-buttons div
+{
+    background: transparent;
+}
+.owl-theme .owl-controls .owl-page span
+{
+    width: 20x;
+    height: 20x;
+    border-radius: 50%;
+    background: url(../img/rahul.png) no-repeat;
+    background-size: cover;
+    transition: all 0 ease-in 0;
+}
+.owl-theme .owl-controls .owl-page:nth-child(2) span
+{
+    background: url("https://randomuser.me/api/portraits/men/84.jpg") no-repeat;
+    background-size: cover;
+}
+.owl-theme .owl-controls .owl-page:nth-child(3) span
+{
+    background: url("https://randomuser.me/api/portraits/men/35.jpg") no-repeat;
+    background-size: cover;
+}
+.owl-theme .owl-controls .owl-page:nth-child(4) span
+{
+    background: url("https://randomuser.me/api/portraits/men/35.jpg") no-repeat;
+    background-size: cover;
+}
+.owl-theme .owl-controls.clickable .owl-page:hover 
+span
+{
+    opacity: 0.5;
+}
+.owl-theme .owl-controls .owl-page span 
+{
+    margin: 12px 8px;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls .owl-page.active:hover span
+{
+    opacity: 1;
+    border: 1px solid #ffffff;
+}
+img.review-dp
+{
+	height: 34px;
+	width: 34px;
+	display: block;
+	margin: 1rem auto !important;
+	border-radius: 200px;
+	margin: 8px;
+	border: 2px solid #ffffff;
+}
+.quote-span
+{
+	font-size: 20px;
+	color: #fff;
+}
+.quote
+{
+	font-size: 12px;
+	font-weight: bold;
+}
+.author
+{
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 1px;
+	font-weight: 400;
+	padding: 2rem auto;
+}
+/* Styles for devices with a maximum width of 768 pixels (smaller tablets and large smartphones) */
+@media screen and (max-width: 768px) {
+  /* Styles go here */
+  	#main-content
+	{
+		background: #151618;
+		padding: 6rem 0px;
+	}
+	.box-content
+	{
+		padding-right: 0;
+	}
+	.main-image
+	{
+		display: none;
+	}
+	.worked-with
+	{
+		display: none;
+	}
+	#about-content 
+	{
+    	padding: 2rem;
+	}
+	#about-content .card-mission
+	{
+		margin-bottom: 2rem;
+	}
+	#about-content .about-me
+	{
+		padding-left: 0;
+		padding: 1rem;
+	}
+	.btn.btn-main
+	{
+		display: block;
+    	width: 100%;
+	}
+	span.or-text
+	{
+		margin: 1rem auto;
+	    display: block !important;
+	    text-align: center;
+	}
+	.testimonial
+	{
+		width: 80%;
+	}
+}
