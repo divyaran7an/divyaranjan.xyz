@@ -4,7 +4,6 @@ html
 {
   box-sizing: border-box;
   font-size: 16px;
-  min-width: 1200px;
 }
 *,
 *::before,
@@ -267,7 +266,7 @@ a.about-more
 	width: 80%;
 	display: block;
 	border-radius: 22px;
-	margin: auto 100px;
+	margin: 100px auto;
 	padding: 4rem 3rem;
 }
 #get-in-touch.container p
@@ -415,22 +414,52 @@ img.review-dp
 	font-weight: 400;
 	padding: 2rem auto;
 }
-@media only screen and (max-width: 768px)
-{
-	#main-content
+/* Styles for devices with a maximum width of 768 pixels (smaller tablets and large smartphones) */
+@media screen and (max-width: 768px) {
+  /* Styles go here */
+  	#main-content
 	{
 		background: #151618;
-		padding: 6rem 8px;
+		padding: 6rem 0px;
+	}
+	.box-content
+	{
+		padding-right: 0;
 	}
 	.main-image
 	{
 		display: none;
 	}
-	.yellow-block
+	.worked-with
 	{
-		display: inline-block;
+		display: none;
 	}
-}
-@media only screen and (max-width: 479px){
-    .owl-buttons{ bottom: 30%; }
+	#about-content 
+	{
+    	padding: 2rem;
+	}
+	#about-content .card-mission
+	{
+		margin-bottom: 2rem;
+	}
+	#about-content .about-me
+	{
+		padding-left: 0;
+		padding: 1rem;
+	}
+	.btn.btn-main
+	{
+		display: block;
+    	width: 100%;
+	}
+	span.or-text
+	{
+		margin: 1rem auto;
+	    display: block !important;
+	    text-align: center;
+	}
+	.testimonial
+	{
+		width: 80%;
+	}
 }
