@@ -13,6 +13,10 @@ html
   margin: 0;
   padding: 0;
 }
+a
+{
+	text-decoration: none !important;
+}
 html,
 body
 {
@@ -22,11 +26,18 @@ body
 	background: #151618;
 	color: #ffffff;
 }
+.form-control:focus,
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: none;
+    box-shadow: none;
+}
 .navbar-nav .nav-link
 {
 	color: #ffffff;
 	font-weight: 400;
-	letter-spacing: 1px;
+	text-transform: lowercase;
 }
 #main-content
 {
@@ -266,7 +277,7 @@ a.about-more
 	width: 80%;
 	display: block;
 	border-radius: 22px;
-	margin: 100px auto;
+	margin: 2rem auto;
 	padding: 4rem 3rem;
 }
 #get-in-touch.container p
@@ -355,6 +366,7 @@ footer span.red
     background: url(../img/rahul.png) no-repeat;
     background-size: cover;
     transition: all 0 ease-in 0;
+    opacity: 0.3;
 }
 .owl-theme .owl-controls .owl-page:nth-child(2) span
 {
@@ -374,11 +386,13 @@ footer span.red
 .owl-theme .owl-controls.clickable .owl-page:hover 
 span
 {
-    opacity: 0.5;
+    opacity: 0.3;
 }
 .owl-theme .owl-controls .owl-page span 
 {
-    margin: 12px 8px;
+    margin: 2px 8px;
+    width: 20px;
+    height: 20px;
 }
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls .owl-page.active:hover span
@@ -414,8 +428,54 @@ img.review-dp
 	font-weight: 400;
 	padding: 2rem auto;
 }
+span.large-text
+{
+	font-size: 18px;
+	font-weight: bold;
+}
+/* Med screen */
+/*#about-content {
+    padding: 60px 20px;
+}*/
 /* Styles for devices with a maximum width of 768 pixels (smaller tablets and large smartphones) */
-@media screen and (max-width: 768px) {
+@media (max-width: 900px)
+{
+	#about-content
+	{
+		padding: 0 1rem;
+	}
+	.btn
+	{
+		display: block !important;
+    	width: 100% !important;
+	}
+	span.or-text
+	{
+		margin: 1rem auto;
+	    display: block !important;
+	    text-align: center;
+	}
+}
+@media (max-width: 1200px)
+{
+	#about-content
+	{
+		padding: 0 1rem;
+	}
+	.btn
+	{
+		display: block !important;
+    	width: 100% !important;
+	}
+	span.or-text
+	{
+		margin: 1rem auto;
+	    display: block !important;
+	    text-align: center;
+	}
+}
+@media screen and (max-width: 768px) 
+{
   /* Styles go here */
   	#main-content
 	{
