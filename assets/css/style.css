@@ -530,9 +530,20 @@ span.large-text
 	{
 		display: none;
 	}
+	.d-flex.past-clients
+	{
+	    display: block !important;
+	}
 	.past-clients img
 	{
 		display: block;
+		height: 14px;
+		width: auto;
+		margin: 20px auto;
+	}
+	.greetings
+	{
+		text-align: center;
 	}
 	#about-content 
 	{
