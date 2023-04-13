@@ -321,7 +321,6 @@ a.about-more
 footer
 {
 	text-align: center;
-	padding: 3rem;
 	font-family: 'Spectral', serif;
 }
 footer .b
@@ -519,8 +518,8 @@ span.large-text
   /* Styles go here */
   	#main-content
 	{
-		background: #151618;
-		padding: 6rem 0px;
+		padding: 3rem 0.777rem;
+		margin: 1rem;
 	}
 	.box-content
 	{
@@ -529,6 +528,26 @@ span.large-text
 	.main-image
 	{
 		display: none;
+	}
+	.navbar>.container-fluid
+	{
+		display: block;
+	}
+	h1.hero-text,
+	.box-content p
+	{
+		text-align: center;
+	}
+	.navbar .navbar-brand
+	{
+	    padding-top: 0.1rem;
+	    padding-bottom: 8px;
+	    margin-right: 0;
+	    font-size: 1.25rem;
+	    text-decoration: none;
+	    white-space: nowrap;
+	    display: block;
+	    text-align: center;
 	}
 	.d-flex.past-clients
 	{
