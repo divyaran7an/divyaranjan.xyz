@@ -38,8 +38,9 @@ body
 	color: #ffffff;
 	font-weight: 700;
 	text-transform: lowercase;
-	opacity: 0.777;
-	font-size: 14px;
+	opacity: 0.555;
+	letter-spacing: 0.2px;
+	font-size: 12px;
 }
 a.nav-link:hover
 {
@@ -72,6 +73,20 @@ h1.hero-text
 	letter-spacing: 0;
 	font-weight: 700;
 }
+h2::after 
+{
+	color: #fff;
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 8px;
+    padding-bottom: 2px;
+    border-bottom: 4px solid #fff;
+}
+h2.no-line::after
+{
+	display: none;	
+}
 .highlight
 {
 	color: #F7E695;
@@ -94,7 +109,7 @@ span.or-text
 }
 .box-content p
 {
-	color: #ADADAD;
+	font-size: 14px;
 }
 .bg
 {
@@ -336,15 +351,16 @@ footer span.red
 	width: 50%;
 	display: block;
 	margin: auto;
+	font-size: 14px;
+	font-weight: 500;
 }
 .testimonial .description 
 {
-    font-weight: 500;
-    font-size: 12px;
-    letter-spacing: 0.1px;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.2px;
     line-height: 160%;
 	letter-spacing: 0.2px;
-	opacity: 0.8;
 }
 .testimonial h3.title
 {
@@ -364,11 +380,14 @@ footer span.red
     font-size: 12px;
     font-weight: bold;
 	text-align: center;
+	opacity: 0.555;
+	letter-spacing: 0.2px;
 }
 .testimonial span.at
 {
 	color: #848485;
 	font-weight: normal;
+	letter-spacing: 0.6px;
 }
 .owl-buttons{
     display: none;
@@ -436,8 +455,9 @@ img.review-dp
 }
 .quote
 {
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: bold;
+    font-style: italic;
 }
 .author
 {
