@@ -36,8 +36,23 @@ body
 .navbar-nav .nav-link
 {
 	color: #ffffff;
-	font-weight: 400;
+	font-weight: 700;
 	text-transform: lowercase;
+	opacity: 0.777;
+	font-size: 14px;
+}
+a.nav-link:hover
+{
+	opacity: 1;
+}
+a.nav-link:after 
+{
+	color: #fff;
+    content: "";
+    display: block;
+    margin-left: 1px;
+    width: 8px;
+    border-bottom: 1px solid #fff;
 }
 #main-content
 {
@@ -76,6 +91,10 @@ span.or-text
 	color: #ADADAD;
 	letter-spacing: 0.6px;
 	font-weight: 500;
+}
+.box-content p
+{
+	color: #ADADAD;
 }
 .bg
 {
@@ -398,7 +417,7 @@ span
 .owl-theme .owl-controls .owl-page.active:hover span
 {
     opacity: 1;
-    border: 1px solid #ffffff;
+    border: 3px solid #ffffff;
 }
 img.review-dp
 {
@@ -430,8 +449,9 @@ img.review-dp
 }
 span.large-text
 {
-	font-size: 18px;
+	font-size: 24px;
 	font-weight: bold;
+	font-family: 'Spectral', serif;
 }
 /* Med screen */
 /*#about-content {
@@ -490,9 +510,9 @@ span.large-text
 	{
 		display: none;
 	}
-	.worked-with
+	.past-clients img
 	{
-		display: none;
+		display: block;
 	}
 	#about-content 
 	{
