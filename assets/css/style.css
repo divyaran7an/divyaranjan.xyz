@@ -17,6 +17,10 @@ a
 {
 	text-decoration: none !important;
 }
+a:hover
+{
+	opacity: 0.777 !important;
+}
 html,
 body
 {
@@ -81,7 +85,7 @@ h2::after
     margin: 0 auto;
     width: 8px;
     padding-bottom: 2px;
-    border-bottom: 4px solid #fff;
+    border-bottom: 4px solid #F7E695;
 }
 h2.no-line::after
 {
@@ -379,7 +383,7 @@ footer span.red
     font-size: 12px;
     font-weight: bold;
 	text-align: center;
-	opacity: 0.555;
+	color: #979899;
 	letter-spacing: 0.2px;
 }
 .testimonial span.at
@@ -471,6 +475,20 @@ span.large-text
 	font-size: 24px;
 	font-weight: bold;
 	font-family: 'Spectral', serif;
+}
+
+.company-name
+{
+	color: #ffffff;
+	opacity: 1 !important;
+}
+.about-me a.underline-link
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: #F7E695;
+	border-bottom: 1px solid #F7E695;
+	padding-bottom: 4px;
 }
 /* Med screen */
 /*#about-content {
